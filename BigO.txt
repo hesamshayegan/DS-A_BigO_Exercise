@@ -1,0 +1,46 @@
+Part 1)
+
+1. O(n)
+2. O(n)
+3. O(1)
+4. O(n^3)
+5. O(n)
+6. O(n)
+7. O(nlogn)
+8. O(2^n)
+9. O(1)
+10. O(n^2)
+
+Part 2)
+
+1. logUpto -> O(n)
+2. logAtLeast10 -> O(n)
+
+3. logAtMost10 -> O(1) 
+The iteration is limited to 10, as in the for-loop, it is taking min of n or 10. 
+Hence, as the iteration are fixed to a constant, it is O(1)
+
+4. onlyElementsAtEvenIndex -> O(n)
+
+5. subtotals -> O(n^2)
+it is running a for-loop inside a for-loop, hence, nested for-loop
+the outer loop is till array.length and the inner loop is till `i`,
+which will be at max less than arr.length
+
+6. vowelCoun -> O(n)
+The for-loop will run only once at maximum. Hence, it is O(n)
+
+Part 3)
+
+1. True
+2. True
+3. False
+4. indexOf -> O(n)
+5. inclues -> O(n)
+6. forEach -> O(n) at least 	it depends what functions does
+7. sort -> O(nlogn)
+8. unshift -> O(n)
+9. push -> O(1)
+10. splice -> O(n) it can be O(1) if the end, but we can’t assume that  
+11. pop -> O(1)
+12. Object.keys() -> o(n)
